@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navbar CSS */
+.navbar{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 42px;
+    width: 100%;
+    background-color: rgb(124, 214, 5);
+    
+}
+ul{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none; 
+}
+li a{
+    margin: 8px;
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: black;
+    background-color: white;
+}
+.search{
+    margin-right: 3px;
+    border-radius: 6px;
+}
+.btn{
+background-color: lavender;
+    border-radius: 6px;
+}
+.btn:hover{
+    background-color: white;
+}
+
+/* About Us CSS */
+.abouts{
+    margin-top: 18px;
+    font-family: 'Roboto', sans-serif;
+    height: 560px;
+    width: 100%;
+  
+}
+h2,h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.story{font-family: 'Roboto', sans-serif;
+    margin-top: 18px;
+    align-items: center;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 300px;
+}
+.card1{
+    width: 40%;
+    height: 300px;
+    
+}
+.card1 img{
+    border-radius: 6px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+.card2{
+    align-items: center;
+    background-color: lightsteelblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    margin: 4px;
+    width: 40%;
+    border-radius: 6px;
+}
+.about{font-family: 'Roboto', sans-serif;
+    background-color: thistle;
+}
+.founder{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 18px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card11{
+    margin: 4px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+.card22{
+    margin: 4px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+.card33{
+    margin: 4px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+.values{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 220px;
+}
+
+.cardv{
+    margin:auto;
+    width: 90%;
+    margin: 4px 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card3{
+    color: white;    
+    background-color: rgb(124, 214, 5);
+    align-items: center;
+    margin-top: 8px; 
+    margin-right: 50px;
+    height: 120px;
+    width: 9.5%;
+    border-radius: 125px;
+    border: 2px solid black;
+}
+.card4{
+    color: white;    
+    background-color: rgb(124, 214, 5);
+    align-items: center;
+    margin-top: 8px; 
+    margin-right: 50px;
+    height: 120px;
+    width: 9.5%;
+    border-radius: 125px;
+    border: 2px solid black;
+}
+.card5{
+    color: white;    
+    background-color: rgb(124, 214, 5);
+    align-items: center;
+    margin-top: 8px; 
+    margin-right: 50px;
+    height: 120px;
+    width: 9.5%;
+    border-radius: 125px;
+    border: 2px solid black;
+}
+.card6{
+    color: white;    
+    background-color: rgb(124, 214, 5);
+    align-items: center;
+    margin-top: 8px; 
+    margin-right: 50px;
+    height: 120px;
+    width: 9.5%;
+    border-radius: 125px;
+    border: 2px solid black;
+}
+.card7{
+    color: white;    
+    background-color: rgb(124, 214, 5);
+    align-items: center;
+    margin-top: 8px; 
+    margin-right: 50px;
+    height: 120px;
+    width: 9.5%;
+    border-radius: 125px;
+    border: 2px solid black;
+}
+.card8{
+    color: white;    
+    background-color: rgb(124, 214, 5);
+    align-items: center;
+    margin-top: 8px; 
+    margin-right: 50px;
+    height: 120px;
+    width: 9.5%;
+    border-radius: 125px;
+    border: 2px solid black;
+}
+
+
+.News{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+}
+.cardnv{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+.cardn1{
+ 
+    margin: 4px;
+    width: 40%;
+    height: 200px ;
+    border: 2px solid black;
+}
+.cardn2{
+    margin: 4px;
+    width: 40%;
+    height: 200px ;
+    border: 2px solid black;
+}
+
+
+.keep{
+    background-color: chartreuse;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+}
+.cardkeep{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+}
+.cardk1{
+    margin: 4px;
+    width: 20%;
+    height: 190px;
+    border: 2px solid black;
+}
+.cardk1 img{
+    height: 165px;
+    width: 100%;
+}
+.cardk2 img{
+    height: 165px;
+    width: 100%;
+}
+.cardk3 img{
+    height: 165px;
+    width: 100%;
+}
+.cardk4 img{
+    height: 165px;
+    width: 100%;
+}
+.cardk2{
+    margin: 4px;
+    width: 22%;
+    height: 190px;
+    border: 2px solid black;
+}
+.cardk3{
+    margin: 4px;
+    width: 22%;
+    height: 190px;
+    border: 2px solid black;
+}
+.cardk4{
+    margin: 4px;
+    width: 22%;
+    height: 190px;
+    border: 2px solid black;
+}
+.ktext{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.keepmail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+.SignUp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+}
+.shortcut{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    background-color: slategray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+footer{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+}
